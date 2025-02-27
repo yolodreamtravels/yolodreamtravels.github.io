@@ -283,6 +283,9 @@
 
 .package-item img {
     transition: .5s;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .package-item:hover img {
@@ -306,6 +309,9 @@
 
 .team-item img {
     transition: .5s;
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .team-item:hover img {
