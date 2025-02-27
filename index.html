@@ -330,11 +330,11 @@
 
                     <div class="col-md-6">
                         <h1 class="text-white mb-4">Book A Tour</h1>
-                        <form>
+                        <form action="https://formsubmit.co/info@yolodreamtravels.com" method="POST">
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control bg-transparent" id="name" placeholder="Your Name">
+                                        <input type="text" class="form-control bg-transparent" id="name" placeholder="Your Name" required>
                                         <label for="name">Your Name</label>
                                     </div>
                                 </div>
@@ -346,7 +346,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="tel" class="form-control bg-transparent" id="phone" placeholder="Your Phone Number">
+                                        <input type="tel" class="form-control bg-transparent" id="phone" placeholder="Your Phone Number" required>
                                         <label for="phone">Your Phone Number</label>
                                     </div>
                                 </div>
@@ -358,12 +358,12 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control bg-transparent" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                        <textarea class="form-control bg-transparent" placeholder="Special Request" id="message" style="height: 100px" required></textarea>
                                         <label for="message">Details for Booking</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-outline-light w-100 py-3" type="submit">Enquire Now</button>
+                                    <button type="submit" class="btn btn-outline-light w-100 py-3" type="submit">Enquire Now</button>
                                 </div>
                             </div>
                         </form>
